@@ -7,6 +7,8 @@ import { IoMdStarOutline } from "react-icons/io";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
+import { MdOutlineStarPurple500 } from "react-icons/md";
+import { BiSolidAlbum } from "react-icons/bi";
 
 const Senior = () => {
     return (
@@ -113,7 +115,18 @@ const Senior = () => {
                     <div className="ago3">Posted 30 days ago</div>
                 </div>
                 
-                <div className="review"></div>
+                <div className="review">
+                    <div className="reviews">
+                        <div className="review-title">Reviews</div>
+                        <div className="read-all">Read all 1945 reviews</div>
+                    </div>
+                    <div className="android">Android Developer for 3 months in Bangalore / Beng...</div>
+                    <div className="anonymous">Anonymous <a className="day"> | 19 Feb 2025</a></div>
+                    <div className="stars"><MdOutlineStarPurple500 /><a className="starss"><MdOutlineStarPurple500 /><MdOutlineStarPurple500 /><MdOutlineStarPurple500 /><MdOutlineStarPurple500 /></a></div>
+                    <div className="likes">Likes</div>
+                    <div className="no">No . work culture is extremely toxic</div>
+                    <div className="power">Powered by<a className="circle"><BiSolidAlbum /></a><a className="ambitior">AmbitiorBox</a></div>
+                </div>
             </div>
         </div>
     );

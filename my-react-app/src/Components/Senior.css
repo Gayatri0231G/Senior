@@ -600,11 +600,98 @@
 .review{
     width: 100%;
     max-width: 350px;
-    height: 200px;
+    height: 210px;
     border-radius: 7px;
     background-color: white;
     margin-left: 10px;
     margin-right: 10px;
     border: 1px solid#e4e4e4;
     margin-top: 10px;
+}
+
+.reviews{
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-title{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.read-all{
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    color: blue;
+    margin-right: 15px;
+}
+
+.android{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.anonymous{
+    margin-left: 20px;
+    margin-top: 3px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.day{
+    color: #818181;
+}
+
+.stars{
+    color: rgb(250, 188, 19);
+    margin-left: 20px;
+    margin-top: 8px;
+}
+
+.starss{
+    color: #cfcbcb;
+}
+
+.likes{
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.no{
+    font-family: sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.power{
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: #c0bebe;
+    font-size: 12px;
+}
+
+.circle{
+    margin-left: 5px;
+    color: blue;
+    font-size: 13px;
+}
+
+.ambitior{
+    margin-left: 5px;
+    font-size: 10px;
+    color: black;
+    font-weight: 600;
 }
